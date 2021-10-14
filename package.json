@@ -12,9 +12,10 @@
   "dependencies": {
     "-": "^0.0.1",
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "discord.js": "^13.2.0",
+    "discord.js": "github:discordjs/discord.js",
     "events.js": "^0.1.4",
     "express": "^4.17.1",
+    "express.js": "^1.0.0",
     "save": "^2.4.0",
     "winston": "^3.3.3"
   },
