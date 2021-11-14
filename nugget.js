@@ -3,6 +3,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]})
 var token = require("./token.json")
 
+const PREFIX = 'nug!';
 /*
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`)
@@ -17,12 +18,17 @@ client.on("ready", () => {
 
 
 client.on("message", msg => {
+
   if(msg.member.user.tag != client.user.tag)
   {
-      if(msg.content === "nug!help")
-      {
-        msg.channel.send("How may Nugget help you today?")
-      }
+    let args = msg.content.substring(PREFIX.length).split(" ");
+    
+    switch(args[0])
+    {
+      case 'nug!help':
+        msg.channel.sendMessage("How may Nugget help you today?")
+        break;
+    }
   }
 })
 
