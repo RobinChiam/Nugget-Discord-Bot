@@ -26,7 +26,7 @@ client.on("message", msg => {
     switch(args[0])
     {
       case 'help':
-        msg.channel.sendMessage("How may Nugget help you today?")
+        msg.channel.send("How may Nugget help you today?")
         break;
     }
   }
