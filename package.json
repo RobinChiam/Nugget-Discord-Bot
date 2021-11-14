@@ -1,13 +1,13 @@
 {
-  "name": "Nugget",
+  "name": "nugget",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "nugget.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
   "keywords": [],
-  "author": "",
+  "author": "UltraSteve",
   "license": "ISC",
   "dependencies": {
     "-": "^0.0.1",
@@ -22,5 +22,13 @@
   "devDependencies": {
     "node": "^16.10.0"
   },
-  "description": ""
+  "description": "The repo for my discord bot called Nugget will get frequently updated and changed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StraXRobinark/Nugget-Discord-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StraXRobinark/Nugget-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/StraXRobinark/Nugget-Discord-Bot#readme"
 }
